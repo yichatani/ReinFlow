@@ -23,6 +23,13 @@
 
 import os
 REINFLOW_DIR=os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+# print(f"{REINFLOW_DIR=}")
+
+# print(f"{os.environ['REINFLOW_DIR']=}")
+
+# exit()
+
 if not REINFLOW_DIR == os.environ['REINFLOW_DIR']:
     raise ValueError(f"Hey did you correctly set up your env variable REINFLOW_DIR? It shows that REINFLOW_DIR={os.environ['REINFLOW_DIR']} but the code rest in {REINFLOW_DIR}. ")
 

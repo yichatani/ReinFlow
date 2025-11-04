@@ -65,6 +65,7 @@ For OpenAI Gym, you’ve got two dataset options: D4RL’s version (our top pick
        ```bash
        # Explore the processed .npz or read description.log
        python data_process/read_npz.py --data_path=normalization.npz
+       # python data_process/read_npz.py --data_path=/home/ani/ReinFlow/data/walker2d-medium-v2/train.npz
        ```
     5. Move the files to `/data/gym/<TASK_NAME>`.
 

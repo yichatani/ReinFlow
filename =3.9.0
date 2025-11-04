@@ -1,0 +1,60 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting wandb==0.17.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/53/99/e014a103a702a0c8745e05ea878edf03907cdb9b12b217c2584fb24090ac/wandb-0.17.7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 4.3 MB/s eta 0:00:00
+Collecting tqdm==4.66.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl (78 kB)
+Collecting pandas==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f8/7f/5b047effafbdd34e52c9e2d7e44f729a0655efafb22198c45cf692cdc157/pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+Collecting pypdf
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/48/d9/6cff57c80a6963e7dd183bf09e9f21604a77716644b1e580e97b259f7612/pypdf-5.9.0-py3-none-any.whl (313 kB)
+Collecting seaborn==0.13.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl (294 kB)
+Requirement already satisfied: click!=8.0.0,>=7.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (8.1.8)
+Collecting docker-pycreds>=0.4.0 (from wandb==0.17.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f5/e8/f6bd1eee09314e7e6dee49cbe2c5e22314ccdb38db16c9fc72d2fa80d054/docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+Collecting gitpython!=3.1.29,>=1.0.0 (from wandb==0.17.7)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/01/61/d4b89fec821f72385526e1b9d9a3a0385dda4a72b206d28049e2c7cd39b8/gitpython-3.1.45-py3-none-any.whl (208 kB)
+Collecting platformdirs (from wandb==0.17.7)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl (18 kB)
+Requirement already satisfied: protobuf!=4.21.0,<6,>=3.12.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (5.29.5)
+Requirement already satisfied: psutil>=5.0.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (7.1.3)
+Collecting pyyaml (from wandb==0.17.7)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/25/a2/b725b61ac76a75583ae7104b3209f75ea44b13cfd026aa535ece22b7f22e/PyYAML-6.0.3-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+Requirement already satisfied: requests<3,>=2.0.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (2.32.4)
+Collecting sentry-sdk>=1.0.0 (from wandb==0.17.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/69/31/8228fa962f7fd8814d634e4ebece8780e2cdcfbdf0cd2e14d4a6861a7cd5/sentry_sdk-2.43.0-py2.py3-none-any.whl (400 kB)
+Collecting setproctitle (from wandb==0.17.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a6/a6/2af99baf5440b3785c2bbae9731e35a16ad52116a02d3819165ebcbf8756/setproctitle-1.3.7-cp38-cp38-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (32 kB)
+Requirement already satisfied: setuptools in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (75.3.0)
+Requirement already satisfied: typing-extensions in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from wandb==0.17.7) (4.13.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from pandas==2.0.3) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from pandas==2.0.3) (2025.2)
+Collecting tzdata>=2022.1 (from pandas==2.0.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Requirement already satisfied: numpy>=1.20.3 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from pandas==2.0.3) (1.24.4)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from seaborn==0.13.2) (3.7.5)
+Requirement already satisfied: six>=1.4.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from docker-pycreds>=0.4.0->wandb==0.17.7) (1.17.0)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb==0.17.7)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/61/5c78b91c3143ed5c14207f463aecfc8f9dbb5092fb2869baf37c273b2705/gitdb-4.0.12-py3-none-any.whl (62 kB)
+Requirement already satisfied: contourpy>=1.0.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (1.4.7)
+Requirement already satisfied: packaging>=20.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (10.4.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (3.1.4)
+Requirement already satisfied: importlib-resources>=3.2.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (6.4.5)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.17.7) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.17.7) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.17.7) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.17.7) (2025.10.5)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb==0.17.7)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/04/be/d09147ad1ec7934636ad912901c5fd7667e1c858e19d355237db0d0cd5e4/smmap-5.0.2-py3-none-any.whl (24 kB)
+Requirement already satisfied: zipp>=3.1.0 in /home/ani/anaconda3/envs/reinflow/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib!=3.6.1,>=3.4->seaborn==0.13.2) (3.20.2)
+Installing collected packages: tzdata, tqdm, smmap, setproctitle, sentry-sdk, pyyaml, pypdf, platformdirs, docker-pycreds, pandas, gitdb, seaborn, gitpython, wandb
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.67.1
+    Uninstalling tqdm-4.67.1:
+      Successfully uninstalled tqdm-4.67.1
+Successfully installed docker-pycreds-0.4.0 gitdb-4.0.12 gitpython-3.1.45 pandas-2.0.3 platformdirs-4.3.6 pypdf-5.9.0 pyyaml-6.0.3 seaborn-0.13.2 sentry-sdk-2.43.0 setproctitle-1.3.7 smmap-5.0.2 tqdm-4.66.5 tzdata-2025.2 wandb-0.17.7

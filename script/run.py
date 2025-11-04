@@ -97,6 +97,13 @@ def main(cfg: OmegaConf):
         os.environ['MUJOCO_GL'] = 'osmesa'
         log.info("No EGL device specified in cfg, falling back to osmesa.")
 
+    # print(f"{cfg.train_dataset_path=}")
+    # exit()
+
+    # print(f"{cfg.wandb.entity=}")
+    # print(f"{cfg.wandb.project=}")
+    # exit()
+
     # For pre-training: download dataset if needed
     if "train_dataset_path" in cfg and not os.path.exists(cfg.train_dataset_path):
         download_url = get_dataset_download_url(cfg)
