@@ -100,10 +100,10 @@ def main():
                     else:
                         if array.ndim == 1:
                             print("Sample data (first 5 elements):")
-                            print(array[:5])
+                            print(array[100:105])
                         else:
                             print("Sample data (first 5 rows):")
-                            print(array[:5])
+                            print(array[100:105])
                         
                         # If the array is too large, you might want to limit the output
                         if array.size > 1000:
